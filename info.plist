@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>org.nadel.freddiethings</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>2AC3BB84-161C-4DE3-A6AE-582121F82FF7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BA1F44B1-8BAA-44E6-87D7-3B8219A03400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Michael Nadel</string>
+	<key>description</key>
+	<string>Add Things tasks from Alfred</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Freddiethings</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>do</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Create a to-do in your Inbox</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2AC3BB84-161C-4DE3-A6AE-582121F82FF7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>things:///add?title={query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BA1F44B1-8BAA-44E6-87D7-3B8219A03400</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Add an item to your Things Inbox with `do`.
+
+Release Notes:
+- 0.1 Initial release</string>
+	<key>uidata</key>
+	<dict>
+		<key>2AC3BB84-161C-4DE3-A6AE-582121F82FF7</key>
+		<dict>
+			<key>xpos</key>
+			<real>60</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+		<key>BA1F44B1-8BAA-44E6-87D7-3B8219A03400</key>
+		<dict>
+			<key>xpos</key>
+			<real>305</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>version</key>
+	<string>0.1</string>
+	<key>webaddress</key>
+	<string>https://github.com/mnadel/freddiethings</string>
+</dict>
+</plist>

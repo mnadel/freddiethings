@@ -12,6 +12,19 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>532181C3-596E-48B7-9D23-1863D876D869</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>532181C3-596E-48B7-9D23-1863D876D869</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>B4CA3EB0-325C-4006-A889-11AE50B42C0E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -93,7 +106,7 @@
 				<key>matchmode</key>
 				<integer>1</integer>
 				<key>matchstring</key>
-				<string>;</string>
+				<string>;\s*</string>
 				<key>regexcaseinsensitive</key>
 				<false/>
 				<key>regexmultiline</key>
@@ -107,6 +120,19 @@
 			<string>B4CA3EB0-325C-4006-A889-11AE50B42C0E</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>532181C3-596E-48B7-9D23-1863D876D869</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -124,17 +150,24 @@ Release Notes:
 			<key>ypos</key>
 			<real>275</real>
 		</dict>
+		<key>532181C3-596E-48B7-9D23-1863D876D869</key>
+		<dict>
+			<key>xpos</key>
+			<real>265</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
 		<key>B4CA3EB0-325C-4006-A889-11AE50B42C0E</key>
 		<dict>
 			<key>xpos</key>
-			<real>300</real>
+			<real>370</real>
 			<key>ypos</key>
 			<real>305</real>
 		</dict>
 		<key>BA1F44B1-8BAA-44E6-87D7-3B8219A03400</key>
 		<dict>
 			<key>xpos</key>
-			<real>455</real>
+			<real>485</real>
 			<key>ypos</key>
 			<real>275</real>
 		</dict>
